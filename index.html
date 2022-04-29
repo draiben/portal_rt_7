@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./libraries/bootstrap/css/bootstrap.min.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;700&family=Playfair+Display:wght@400;500;700&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="./css/style.css" />
+        <link rel="stylesheet" href="./css/index.css" />
+
+        <title>Portal RT 7</title>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <!-- Navbar -->
+            <nav id="navbar" class="navbar navbar-expand-lg fixed-top py-3">
+                <div class="container">
+                    <a class="navbar-brand me-auto" href="#">
+                        <img id="img-logo" class="img-logo" src="./assets/images/PORTAL_RT_7.png" alt="Logo Portal RT 7" />
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item me-3">
+                                <a class="nav-link active" aria-current="page" href="/">Beranda</a>
+                            </li>
+                            <li class="nav-item me-3">
+                                <a class="nav-link" href="#">Pengurus RT</a>
+                            </li>
+                            <li class="nav-item dropdown me-3">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Fasilitas </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">Farm Zoo 7</a></li>
+                                    <li><a class="dropdown-item" href="#">Taman 7</a></li>
+                                    <li><a class="dropdown-item" href="#">Keamanan</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item me-3">
+                                <a class="nav-link" href="#">Info Warga</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Kontak</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- Akhir navbar -->
+
+            <!-- Banner -->
+            <div class="container-fluid header">
+                <div class="color-overlay"></div>
+                <h1 class="heading-1">
+                    SELAMAT DATANG <br />
+                    DI PORTAL RT 7
+                </h1>
+            </div>
+            <!-- Akhir banner -->
+
+            <!-- Banner video -->
+            <!-- <div class="container-fluid header">
+                <h1 class="heading-1">
+                    SELAMAT DATANG <br />
+                    DI PORTAL RT 7
+                </h1>
+
+                <div class="container-video">
+                    <div class="color-overlay"></div>
+                    <video id="videoBG" autoplay loop muted>
+                        <source src="../assets/videos/video.mp4" type="video/mp4" />
+                    </video>
+                </div>
+            </div> -->
+        </header>
+
+        <!-- Main Content -->
+        <main>
+            <!-- Stats -->
+            <section class="stats container">
+                <div class="row justify-content-center">
+                    <div class="col-3 col-lg-2 col-md-3 col-sm-3 stats-detail rounded-start">
+                        <h2 class="heading-2">138</h2>
+                        <p>laki-laki</p>
+                    </div>
+                    <div class="col-3 col-lg-2 col-md-3 col-sm-3 stats-detail">
+                        <h2 class="heading-2">131</h2>
+                        <p>perempuan</p>
+                    </div>
+                    <div class="col-3 col-lg-2 col-md-3 col-sm-3 stats-detail">
+                        <h2 class="heading-2">269</h2>
+                        <p>jiwa warga</p>
+                    </div>
+                    <div class="col-3 col-lg-2 col-md-3 col-sm-3 stats-detail rounded-end">
+                        <h2 class="heading-2">76</h2>
+                        <p>k. keluarga</p>
+                    </div>
+                </div>
+            </section>
+            <!-- Akhir stats -->
+
+            <!-- About us -->
+            <section class="about-us">
+                <div class="container">
+                    <div class="row">
+                        <div class="col text-center heading-title">
+                            <h1 class="heading-1">TENTANG KAMI</h1>
+                            <p>RT 07 PURI MAS DEPOK</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <script>
+            function changeBg() {
+                let navbar = document.getElementById("navbar");
+                let scrollValue = window.scrollY;
+                let navLink = document.querySelectorAll(".nav-link");
+
+                if (scrollValue < 100) {
+                    navbar.classList.remove("navbar-background");
+                    navbar.classList.add("navbar-dark");
+                    navbar.classList.remove("navbar-light");
+                    document.getElementById("img-logo").src = "./assets/images/PORTAL_RT_7.png";
+                    for (let i = 0; i < navLink.length; i++) {
+                        navLink[i].classList.remove("scroll");
+                    }
+                } else {
+                    navbar.classList.add("navbar-background");
+                    navbar.classList.add("navbar-light");
+                    navbar.classList.remove("navbar-dark");
+                    document.getElementById("img-logo").src = "./assets/images/PORTAL_RT_7_blue.png";
+                    for (let i = 0; i < navLink.length; i++) {
+                        navLink[i].classList.add("scroll");
+                    }
+                }
+            }
+
+            window.addEventListener("scroll", changeBg);
+        </script>
+    </body>
+</html>

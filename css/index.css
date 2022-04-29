@@ -1,0 +1,32 @@
+/* Stats */
+.stats {
+    margin-top: -60px;
+    font-size: 20px;
+    font-weight: 300;
+    color: #707070;
+}
+
+.stats .stats-detail {
+    background-color: #ffffff;
+    padding: 16px 16px 16px 46px;
+}
+
+.stats .stats-detail .heading-2 {
+    margin-bottom: 0;
+    color: #051334;
+}
+
+.stats .stats-detail p {
+    color: #051334;
+    font-weight: 400;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+/* Akhir stats */
+
+/* About us */
+.about-us {
+    min-height: 100vh;
+    background-color: #051334;
+    margin-top: -60px;
+}

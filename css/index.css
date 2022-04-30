@@ -56,6 +56,18 @@
 /* Akhir hiasan */
 /* Akhir About us */
 
+/* Fasilitas */
+.fasilitas .content .card-fasilitas {
+    width: auto;
+    height: auto;
+    padding: 40px 20px;
+}
+
+.fasilitas .content .card-fasilitas img {
+    margin-bottom: 14px;
+}
+/* Akhir fasilitas */
+
 /* Responsive */
 
 /* Small */

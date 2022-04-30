@@ -6,6 +6,12 @@
 }
 /* end reset body */
 
+/* Margin Content */
+.content {
+    margin-top: 50px;
+}
+/* Akhir margin content */
+
 /* default font */
 body {
     font-family: "Assistant", sans-serif;

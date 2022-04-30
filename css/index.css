@@ -26,7 +26,114 @@
 
 /* About us */
 .about-us {
-    min-height: 100vh;
+    min-height: 1040px;
     background-color: #051334;
     margin-top: -60px;
+    color: #ffffff;
+}
+
+.about-us .heading-title {
+    margin-top: 150px;
+}
+
+.about-us .content-about-us h2 {
+    margin-bottom: 14px;
+}
+
+.about-us .content-about-us .img-village {
+    width: 600px;
+    height: 360px;
+}
+
+/* Hiasan box */
+.about-us .box-1 {
+    transform: rotate(180deg);
+}
+
+.about-us .box-2 {
+    transform: translateY(-830px);
+}
+/* Akhir hiasan */
+/* Akhir About us */
+
+/* Responsive */
+
+/* Small */
+@media (min-width: 576px) {
+    .stats .stats-detail {
+        padding: 10px 0 10px 10px;
+    }
+
+    .about-us .content-about-us .img-village {
+        width: 400px;
+        height: 220px;
+        margin-top: 20px;
+    }
+
+    .about-us .box-1 {
+        visibility: hidden;
+    }
+
+    .about-us .box-2 {
+        visibility: hidden;
+    }
+}
+
+/* Medium */
+@media (min-width: 768px) {
+    .stats .stats-detail {
+        padding: 16px 16px;
+    }
+    .about-us .content-about-us .img-village {
+        margin-top: 20px;
+        width: 600px;
+        height: 360px;
+    }
+
+    .about-us .box-1 {
+        visibility: visible;
+        margin-top: 30px;
+    }
+
+    .about-us .box-2 {
+        visibility: visible;
+        transform: translateY(-1500px);
+    }
+}
+
+/* Large */
+@media (min-width: 992px) {
+    .stats .stats-detail {
+        padding: 16px 16px;
+    }
+    .about-us .content-about-us .img-village {
+        width: 460px;
+        height: 270px;
+    }
+
+    .about-us .box-2 {
+        transform: translateY(-950px);
+    }
+}
+
+/* Extra large */
+@media (min-width: 1200px) {
+    .stats .stats-detail {
+        padding: 16px 16px 16px 46px;
+    }
+    .about-us .content-about-us .img-village {
+        width: 500px;
+        height: 288px;
+    }
+    .about-us .box-1 {
+        margin-top: 30px;
+    }
+
+    .about-us .box-2 {
+        transform: translateY(-850px);
+    }
+}
+
+/* extra-extra large */
+@media (min-width: 1400px) {
 }

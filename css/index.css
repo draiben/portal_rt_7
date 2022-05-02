@@ -68,10 +68,28 @@
 }
 /* Akhir fasilitas */
 
+/* pengurus */
+.struktur-pengurus .pengurus .img-pengurus {
+    margin-top: 50px;
+    border-radius: 6px;
+    width: 260px;
+    height: 180px;
+    margin: auto;
+    display: block;
+}
+
+.struktur-pengurus .pengurus .heading-3 {
+    padding-top: 20px;
+}
+/* Akhir pengurus */
+
 /* Responsive */
 
 /* Small */
 @media (min-width: 576px) {
+    /* .logo-footer {
+        display: none;
+    } */
     .stats .stats-detail {
         padding: 10px 0 10px 10px;
     }
@@ -115,6 +133,10 @@
 
 /* Large */
 @media (min-width: 992px) {
+    .struktur-pengurus .pengurus .img-pengurus {
+        width: 220px;
+        height: 140px;
+    }
     .stats .stats-detail {
         padding: 16px 16px;
     }
@@ -130,6 +152,10 @@
 
 /* Extra large */
 @media (min-width: 1200px) {
+    .struktur-pengurus .pengurus .img-pengurus {
+        width: 260px;
+        height: 180px;
+    }
     .stats .stats-detail {
         padding: 16px 16px 16px 46px;
     }

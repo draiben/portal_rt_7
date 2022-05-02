@@ -69,11 +69,13 @@ body {
 
 .heading-title {
     margin-top: 100px;
+    text-transform: uppercase;
 }
 
 .heading-title p {
     font-size: 20px;
     font-weight: 400;
+    text-transform: capitalize;
 }
 /* Heading */
 

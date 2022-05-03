@@ -82,6 +82,19 @@
 /* Akhir card kanan */
 /* Akhir Struktur pengurus */
 
+/* Seksi-seksi */
+.seksi .img-seksi {
+    width: 260px;
+    height: 172px;
+    margin-top: 30px;
+    border-radius: 6px;
+}
+
+.seksi .heading-3 {
+    margin-top: 10px;
+}
+/* Akhir seksi-seksi */
+
 /* Responsive */
 
 /* Small */
@@ -104,6 +117,13 @@
         margin-top: 30px;
     }
     /* Akhir card right */
+
+    /* Seksi */
+    .seksi .img-seksi {
+        width: 240px;
+        height: 160px;
+    }
+    /* Akhir seksi */
 }
 
 /* Medium */
@@ -115,8 +135,8 @@
     }
 
     .struktur-pengurus .card-left .img-gallery {
-        width: 150px;
-        height: 104px;
+        width: 160px;
+        height: 100px;
     }
     /* Akhir card left */
 
@@ -125,6 +145,13 @@
         width: 700px;
     }
     /* Akhir card right */
+
+    /* Seksi */
+    .seksi .img-seksi {
+        width: 160px;
+        height: 100px;
+    }
+    /* Akhir seksi */
 }
 
 /* Large */
@@ -142,6 +169,13 @@
         margin-top: 0;
     }
     /* Akhir card right */
+
+    /* Seksi */
+    .seksi .img-seksi {
+        width: 210px;
+        height: 132px;
+    }
+    /* Akhir seksi */
 }
 
 /* Extra Large */
@@ -158,6 +192,13 @@
         width: 360px;
     }
     /* akhir card right */
+
+    /* seksi */
+    .seksi .img-seksi {
+        width: 260px;
+        height: 172px;
+    }
+    /* akhir seksi */
 }
 
 /* Extra-extra large */

@@ -1,7 +1,165 @@
+/* Headers */
 .pengurus-headers {
     background-color: #f5f4f1;
     min-height: 400px;
 }
+
 .pengurus-headers .content {
     margin-top: 120px;
+}
+/* Akhir headers */
+
+/* Struktur pengurus */
+.struktur-pengurus {
+    margin-top: -300px;
+    padding: 0;
+}
+
+/* Card kiri */
+.struktur-pengurus .card-left {
+    border: none;
+    background: none;
+}
+
+.struktur-pengurus .card-left .img-hover-zoom {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.struktur-pengurus .card-left .card-img-top {
+    width: 736px;
+    height: 490px;
+    border-radius: 10px;
+    transition: transform 0.5s ease;
+}
+
+.struktur-pengurus .card-left .card-img-top:hover {
+    transform: scale(1.5);
+}
+
+.struktur-pengurus .card-left .img-gallery {
+    width: 168px;
+    height: 110px;
+    border-radius: 4px;
+}
+
+.struktur-pengurus .card-left button {
+    border: none;
+    margin-top: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.gallery-active {
+    border: 4px solid #5bb344 !important;
+}
+
+.img-gallery:not(.gallery-active):hover {
+    border: 4px solid #5bb344 !important;
+}
+/* Akhir card kiri */
+
+/* Card kanan */
+.struktur-pengurus .card-right {
+    width: 360px;
+    height: 270px;
+    border-radius: 10px;
+}
+
+.struktur-pengurus .card-right .heading-title {
+    margin: 0;
+    padding: 30px;
+    padding-bottom: 10px;
+}
+
+.struktur-pengurus .card-right .table-information {
+    margin: 0 30px 30px 30px;
+}
+
+.struktur-pengurus .card-right .table-information tbody {
+    font-size: 20px;
+}
+/* Akhir card kanan */
+/* Akhir Struktur pengurus */
+
+/* Responsive */
+
+/* Small */
+@media (min-width: 576px) {
+    /* Card left */
+    .struktur-pengurus .card-left .card-img-top {
+        width: 530px;
+        height: 332px;
+    }
+
+    .struktur-pengurus .card-left .img-gallery {
+        width: 120px;
+        height: 80px;
+    }
+    /* Akhir card left */
+
+    /* card right */
+    .struktur-pengurus .card-right {
+        width: 540px;
+        margin-top: 30px;
+    }
+    /* Akhir card right */
+}
+
+/* Medium */
+@media (min-width: 768px) {
+    /* Card left */
+    .struktur-pengurus .card-left .card-img-top {
+        width: 736px;
+        height: 490px;
+    }
+
+    .struktur-pengurus .card-left .img-gallery {
+        width: 150px;
+        height: 104px;
+    }
+    /* Akhir card left */
+
+    /* card right */
+    .struktur-pengurus .card-right {
+        width: 700px;
+    }
+    /* Akhir card right */
+}
+
+/* Large */
+@media (min-width: 992px) {
+    /* Card left */
+    .struktur-pengurus .card-left .img-gallery {
+        width: 138px;
+        height: 90px;
+    }
+    /* Akhir card left */
+
+    /* Card right */
+    .struktur-pengurus .card-right {
+        width: 300px;
+        margin-top: 0;
+    }
+    /* Akhir card right */
+}
+
+/* Extra Large */
+@media (min-width: 1200px) {
+    /* Card left */
+    .struktur-pengurus .card-left .img-gallery {
+        width: 168px;
+        height: 110px;
+    }
+    /* Akhir card left */
+
+    /* card right */
+    .struktur-pengurus .card-right {
+        width: 360px;
+    }
+    /* akhir card right */
+}
+
+/* Extra-extra large */
+@media (min-width: 1400px) {
 }

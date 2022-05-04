@@ -1,0 +1,43 @@
+.header {
+    background-image: url("../assets/images/security.jpg");
+}
+
+/* pos satpam */
+.pos-satpam .img-pos-satpam {
+    width: 260px;
+    height: 172px;
+    border-radius: 6px;
+}
+
+.pos-satpam .heading-3 {
+    padding: 14px 0;
+}
+/* Akhir pos satpam */
+
+/* responsive */
+
+/* small */
+@media (min-width: 576px) {
+}
+
+/* medium */
+@media (min-width: 768px) {
+}
+
+/* large */
+@media (min-width: 992px) {
+    .pos-satpam .img-pos-satpam {
+        width: 220px;
+        height: 140px;
+        border-radius: 6px;
+    }
+}
+
+/* extra large */
+@media (min-width: 1200px) {
+    .pos-satpam .img-pos-satpam {
+        width: 260px;
+        height: 172px;
+        border-radius: 6px;
+    }
+}

@@ -3,6 +3,11 @@
 }
 
 /* pos satpam */
+.pos-satpam {
+    background-color: #f7f9ff;
+    padding-bottom: 100px;
+}
+
 .pos-satpam .img-pos-satpam {
     width: 260px;
     height: 172px;
@@ -14,30 +19,90 @@
 }
 /* Akhir pos satpam */
 
+/* cctv */
+.cctv .img-cctv {
+    width: 1100px;
+    height: 800px;
+    border-radius: 10px;
+}
+
+.cctv .gallery-cctv {
+    width: 260px;
+    height: 172px;
+    margin-top: 30px;
+    border-radius: 6px;
+}
+
+.cctv .heading-3 {
+    padding: 14px;
+}
 /* responsive */
 
 /* small */
 @media (min-width: 576px) {
+    /* cctv */
+    .cctv .img-cctv {
+        width: 540px;
+        height: 340px;
+    }
+    .cctv .gallery-cctv {
+        width: 240px;
+        height: 160px;
+    }
 }
 
 /* medium */
 @media (min-width: 768px) {
+    /* cctv */
+    .cctv .img-cctv {
+        width: 680px;
+        height: 540px;
+    }
+
+    .cctv .gallery-cctv {
+        width: 160px;
+        height: 100px;
+    }
 }
 
 /* large */
 @media (min-width: 992px) {
+    /* pos satpam */
     .pos-satpam .img-pos-satpam {
         width: 220px;
         height: 140px;
         border-radius: 6px;
     }
+
+    /* cctv */
+    .cctv .img-cctv {
+        width: 940px;
+        height: 700px;
+    }
+
+    .cctv .gallery-cctv {
+        width: 210px;
+        height: 132px;
+    }
 }
 
 /* extra large */
 @media (min-width: 1200px) {
+    /* pos satpam */
     .pos-satpam .img-pos-satpam {
         width: 260px;
         height: 172px;
         border-radius: 6px;
+    }
+
+    /* cctv */
+    .cctv .img-cctv {
+        width: 1100px;
+        height: 800px;
+    }
+
+    .cctv .gallery-cctv {
+        width: 260px;
+        height: 172px;
     }
 }

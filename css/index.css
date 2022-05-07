@@ -69,6 +69,12 @@
 /* Akhir fasilitas */
 
 /* pengurus */
+.struktur-pengurus {
+    background-color: #f7f9ff;
+    margin-top: 100px;
+    padding-bottom: 100px;
+}
+
 .struktur-pengurus .pengurus .img-pengurus {
     margin-top: 50px;
     border-radius: 6px;
@@ -83,10 +89,66 @@
 }
 /* Akhir pengurus */
 
+/* berita */
+.berita .content {
+    color: #000000;
+}
+.berita .content .img-berita-utama {
+    width: 540px;
+    height: 360px;
+    border-radius: 10px;
+}
+
+.berita .content .date {
+    font-size: 20px;
+    font-weight: 200;
+    text-transform: capitalize;
+    padding: 10px 0;
+    margin: 0;
+}
+
+.berita .content .heading-2 {
+    text-transform: capitalize;
+}
+
+.berita .content .paragraph {
+    padding-top: 10px;
+    margin: 0;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+/* berita gallery */
+.berita .content .berita-gallery .img-berita {
+    width: 260px;
+    height: 174px;
+    border-radius: 6px;
+}
+
+.berita .content .berita-gallery .date {
+    padding: 0;
+    margin: 0;
+}
+
+.berita .content .berita-gallery .heading-3 {
+    padding-top: 10px;
+    text-transform: capitalize;
+}
+
+.berita .content .berita-gallery hr {
+    color: #000000;
+    margin: 24px 0;
+}
+
 /* Responsive */
 
 /* Small */
 @media (min-width: 576px) {
+    /* hr (garis) */
+    .hr-lg {
+        display: block;
+    }
+
     /* .logo-footer {
         display: none;
     } */
@@ -152,6 +214,9 @@
 
 /* Extra large */
 @media (min-width: 1200px) {
+    .hr-lg {
+        display: none;
+    }
     .struktur-pengurus .pengurus .img-pengurus {
         width: 260px;
         height: 180px;

@@ -1,0 +1,83 @@
+body {
+    color: #000000;
+}
+
+/* data keluarga */
+.data-keluarga {
+    padding-top: 50px;
+}
+
+.data-keluarga .content {
+    margin-top: 20px;
+}
+
+.data-keluarga .content .heading-1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+}
+.data-keluarga .content .paragraph {
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    color: #b7b7b7;
+    text-transform: capitalize;
+}
+
+.data-keluarga .info {
+    width: 500px;
+    height: 300px;
+    background-color: #f5f6f7;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* Akhir data keluarga */
+
+/* table data keluarga */
+.table {
+    text-transform: capitalize;
+    font-size: 20px;
+    text-align: center;
+}
+
+.scroll-table {
+    width: 100%;
+    height: 300px;
+    overflow-y: auto;
+}
+
+/* responsive */
+
+/* small */
+@media (min-width: 576px) {
+    .data-keluarga .info {
+        margin-top: 30px;
+    }
+}
+
+/* medium */
+@media (min-width: 768px) {
+    .data-keluarga .info {
+        width: 320px;
+        height: 200px;
+    }
+}
+
+/* large */
+@media (min-width: 992px) {
+    .data-keluarga .info {
+        width: 440px;
+        height: 260px;
+    }
+}
+
+/* extra large */
+@media (min-width: 1200px) {
+    .data-keluarga .info {
+        width: 500px;
+        height: 300px;
+    }
+}

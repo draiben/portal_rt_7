@@ -132,6 +132,18 @@ body {
     transition: linear 0.2s;
 }
 
+.btn-secondary {
+    background-color: #051334;
+    color: #ffffff;
+    padding: 10px 38px;
+    font-weight: 600;
+    transition: linear 0.2s;
+}
+.btn-secondary:hover {
+    background-color: #1440a5;
+    transition: linear 0.2s;
+}
+
 /* Akhir button */
 
 /* Carousel button */

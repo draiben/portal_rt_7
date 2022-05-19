@@ -1,0 +1,73 @@
+.kontak {
+    margin-top: 100px;
+}
+
+.kontak .paragraph {
+    color: #000;
+    padding: 14px 0;
+    margin: 0;
+}
+
+.kontak .ic-kontak {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.kontak .informasi-kontak {
+    margin-top: 20px;
+}
+
+.kontak .informasi-kontak .paragraph {
+    padding: 0;
+}
+
+.kontak .informasi-kontak .link {
+    font-size: 20px;
+    font-weight: 300;
+    text-decoration: none;
+    color: #051334;
+}
+
+.kontak .informasi-kontak .link:hover {
+    color: #9c9c9c;
+}
+
+.kontak .label {
+    font-family: "Assistant", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+/* responsive */
+
+/* small */
+@media (min-width: 576px) {
+    .data-keluarga .info {
+        margin-top: 30px;
+    }
+}
+
+/* medium */
+@media (min-width: 768px) {
+    .data-keluarga .info {
+        width: 320px;
+        height: 200px;
+    }
+}
+
+/* large */
+@media (min-width: 992px) {
+    .data-keluarga .info {
+        width: 440px;
+        height: 260px;
+    }
+}
+
+/* extra large */
+@media (min-width: 1200px) {
+    .data-keluarga .info {
+        width: 500px;
+        height: 300px;
+    }
+}

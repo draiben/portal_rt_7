@@ -4,14 +4,14 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Portal RT 7</title>
+        <link rel="shortcut icon" type="image" href="../assets/icon/ic_title_rt7.png" />
         <link rel="stylesheet" href="./libraries/bootstrap/css/bootstrap.min.css" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;700&family=Playfair+Display:wght@400;500;700&display=swap" rel="stylesheet" />
         <link rel="stylesheet" href="./css/style.css" />
         <link rel="stylesheet" href="./css/index.css" />
-
-        <title>Portal RT 7</title>
     </head>
     <body>
         <!-- Header -->
@@ -37,15 +37,15 @@
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Fasilitas </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <li><a class="dropdown-item" href="./src/farm_zoo_7.html">Farm Zoo 7</a></li>
-                                    <li><a class="dropdown-item" href="#">Taman 7</a></li>
-                                    <li><a class="dropdown-item" href="#">Keamanan</a></li>
+                                    <li><a class="dropdown-item" href="./src/taman_7.html">Taman 7</a></li>
+                                    <li><a class="dropdown-item" href="./src/keamanan.html">Keamanan</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item me-3">
-                                <a class="nav-link" href="#">Info Warga</a>
+                                <a class="nav-link" href="./src/info_warga.html">Info Warga</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Kontak</a>
+                                <a class="nav-link" href="./src/kontak.html">Kontak</a>
                             </li>
                         </ul>
                     </div>
@@ -162,7 +162,7 @@
             <!-- Akhir About Us -->
 
             <!-- Fasilitas -->
-            <section class="fasilitas">
+            <section class="fasilitas" id="fasilitas">
                 <div class="container">
                     <!-- title -->
                     <div class="row">
@@ -181,7 +181,7 @@
                                     <img src="../assets/icon/farm.png" width="100" height="100" alt="Farm" />
                                     <h3 class="heading-3">FARM ZOO 7</h3>
                                     <p class="mx-5 pt-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci odio eius earum delectus pariatur quibusdam?</p>
-                                    <a class="btn btn-primary mt-2">Learn More</a>
+                                    <a href="./src/farm_zoo_7.html" class="btn btn-primary mt-2">Learn More</a>
                                 </div>
                             </div>
                             <div class="col col-lg-4 col-md-6 col-sm-8">
@@ -189,7 +189,7 @@
                                     <img src="../assets/icon/garden.png" width="100" height="100" alt="Garden" />
                                     <h3 class="heading-3">TAMAN 7</h3>
                                     <p class="mx-5 pt-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci odio eius earum delectus pariatur quibusdam?</p>
-                                    <a class="btn btn-primary mt-2">Learn More</a>
+                                    <a href="./src/taman_7.html" class="btn btn-primary mt-2">Learn More</a>
                                 </div>
                             </div>
                             <div class="col col-lg-4 col-md-6 col-sm-8">
@@ -197,7 +197,7 @@
                                     <img src="../assets/icon/keamanan.png" width="100" height="100" alt="Security" />
                                     <h3 class="heading-3">KEAMANAN</h3>
                                     <p class="mx-5 pt-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci odio eius earum delectus pariatur quibusdam?</p>
-                                    <a class="btn btn-primary mt-2">Learn More</a>
+                                    <a href="./src/keamanan.html" class="btn btn-primary mt-2">Learn More</a>
                                 </div>
                             </div>
                         </div>
@@ -237,7 +237,7 @@
                         </div>
                     </div>
                     <div class="text-center pt-5">
-                        <a href="./src/struktur-pengurus.html" class="btn btn-primary">Selengkapnya</a>
+                        <a href="./src/struktur_pengurus.html" class="btn btn-primary">Selengkapnya</a>
                     </div>
                 </div>
             </div>
@@ -316,29 +316,29 @@
                     <div class="col-2 col-sm-4 col-md-4 col-lg-2">
                         <h3 class="heading-3">MENU</h3>
                         <ul class="list-unstyled">
-                            <li><a href="#">PENGURUS RT</a></li>
-                            <li><a href="#">FASILITAS</a></li>
-                            <li><a href="#">INFO WARGA</a></li>
+                            <li><a href="./src/struktur_pengurus.html">PENGURUS RT</a></li>
+                            <li><a href="#fasilitas">FASILITAS</a></li>
+                            <li><a href="./src/info_warga.html">INFO WARGA</a></li>
                         </ul>
                     </div>
                     <div class="col-2 col-sm-4 col-md-4 col-lg-2">
                         <h3 class="heading-3">KONTAK</h3>
                         <ul class="list-unstyled">
-                            <li><a href="#">PURI MAS DEPOK</a></li>
-                            <li><a href="#">021 - XXXXXXXXX</a></li>
-                            <li><a href="#">PORTAL RT 7</a></li>
+                            <li><a href="./src/kontak.html">PURI MAS DEPOK</a></li>
+                            <li><a href="./src/kontak.html">021 - XXXXXXXXX</a></li>
+                            <li><a href="/">PORTAL RT 7</a></li>
                         </ul>
                     </div>
                     <div class="col-2 col-sm-4 col-md-4 col-lg-2">
                         <h3 class="heading-3">SOCIAL MEDIA</h3>
                         <div class="social-media d-flex">
-                            <a href="#">
+                            <a href="/">
                                 <img src="../assets/icon/logo-instagram.png" alt="" />
                             </a>
-                            <a href="#">
+                            <a href="/">
                                 <img src="../assets/icon/logo-facebook.png" alt="" />
                             </a>
-                            <a href="#">
+                            <a href="/">
                                 <img src="../assets/icon/logo-whatsapp.png" alt="" />
                             </a>
                         </div>

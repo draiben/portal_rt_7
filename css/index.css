@@ -1,9 +1,13 @@
+/* header */
+.header {
+    background-image: url("../assets/images/village.jpg");
+}
+
 /* Stats */
 .stats {
     margin-top: -60px;
     font-size: 20px;
     font-weight: 300;
-    color: #707070;
 }
 
 .stats .stats-detail {
@@ -13,16 +17,13 @@
 
 .stats .stats-detail .heading-2 {
     margin-bottom: 0;
-    color: #051334;
 }
 
 .stats .stats-detail p {
-    color: #051334;
     font-weight: 400;
     font-size: 20px;
     text-transform: uppercase;
 }
-/* Akhir stats */
 
 /* About us */
 .about-us {
@@ -53,8 +54,6 @@
 .about-us .box-2 {
     transform: translateY(-830px);
 }
-/* Akhir hiasan */
-/* Akhir About us */
 
 /* Fasilitas */
 .fasilitas .content .card-fasilitas {
@@ -66,7 +65,6 @@
 .fasilitas .content .card-fasilitas img {
     margin-bottom: 14px;
 }
-/* Akhir fasilitas */
 
 /* pengurus */
 .struktur-pengurus {
@@ -87,7 +85,6 @@
 .struktur-pengurus .pengurus .heading-3 {
     padding-top: 20px;
 }
-/* Akhir pengurus */
 
 /* berita */
 .berita .content {
@@ -131,16 +128,78 @@
 }
 
 .berita .content .berita-gallery .heading-3 {
-    padding-top: 10px;
+    font-size: 18px;
+    padding: 6px 0;
     text-transform: capitalize;
 }
 
+.berita .content .berita-gallery .paragraph {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+.link-read-more {
+    color: #051334;
+    transition: 0.3s;
+}
+.link-read-more:hover {
+    color: #7099ff;
+    transition: 0.3s;
+}
 .berita .content .berita-gallery hr {
     color: #000000;
     margin: 24px 0;
 }
 
 /* Responsive */
+
+/* Xtra Small */
+@media (min-width: 0px) and (max-width: 575px) {
+    /* Garis berita bawah berita utama */
+    .hr-lg {
+        display: block;
+    }
+    /* Akhir garis */
+
+    /* Stats */
+    .stats .stats-detail p {
+        font-size: 16px;
+    }
+
+    .stats .stats-detail {
+        padding: 10px 0 10px 10px;
+    }
+    /* Akhir stats */
+
+    /* About us */
+    .about-us {
+        padding: 0 16px;
+    }
+
+    .about-us .content-about-us .img-village {
+        width: 400px;
+        height: 220px;
+        margin-top: 20px;
+    }
+
+    .about-us .box-1 {
+        visibility: hidden;
+    }
+
+    .about-us .box-2 {
+        visibility: hidden;
+    }
+    /* Akhir about us */
+
+    /* Berita */
+    .berita .content .img-berita-utama {
+        width: 360px;
+        height: 240px;
+        border-radius: 10px;
+    }
+    /* Akhir berita */
+}
 
 /* Small */
 @media (min-width: 576px) {
@@ -149,9 +208,6 @@
         display: block;
     }
 
-    /* .logo-footer {
-        display: none;
-    } */
     .stats .stats-detail {
         padding: 10px 0 10px 10px;
     }
@@ -168,6 +224,11 @@
 
     .about-us .box-2 {
         visibility: hidden;
+    }
+    .berita .content .img-berita-utama {
+        width: 540px;
+        height: 360px;
+        border-radius: 10px;
     }
 }
 

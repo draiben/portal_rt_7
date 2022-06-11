@@ -182,6 +182,10 @@ body {
 
 /* responsive */
 @media (min-width: 0px) and (max-width: 575px) {
+    .content p {
+        font-size: 14px;
+    }
+
     .navbar .navbar-brand .img-logo {
         width: 180px;
         height: 36px;
@@ -192,19 +196,19 @@ body {
     }
 
     .heading-1 {
-        font-size: 30px;
-    }
-
-    .heading-2 {
         font-size: 24px;
     }
 
+    .heading-2 {
+        font-size: 18px;
+    }
+
     .heading-3 {
-        font-size: 20px;
+        font-size: 16px;
     }
 
     .heading-title p {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     /* Footer */

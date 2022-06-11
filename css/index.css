@@ -173,13 +173,9 @@
     /* Akhir stats */
 
     /* About us */
-    .about-us {
-        padding: 0 16px;
-    }
-
     .about-us .content-about-us .img-village {
-        width: 400px;
-        height: 220px;
+        width: 240px;
+        height: 140px;
         margin-top: 20px;
     }
 
@@ -194,8 +190,8 @@
 
     /* Berita */
     .berita .content .img-berita-utama {
-        width: 360px;
-        height: 240px;
+        width: 260px;
+        height: 174px;
         border-radius: 10px;
     }
     /* Akhir berita */

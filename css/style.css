@@ -169,6 +169,10 @@ body {
     margin-bottom: 30px;
 }
 
+.copyright img {
+    margin-right: 6px;
+}
+
 .copyright p {
     padding: 0;
     margin: 0 5px;
@@ -201,5 +205,27 @@ body {
 
     .heading-title p {
         font-size: 18px;
+    }
+
+    /* Footer */
+    .footer .heading-3 {
+        font-size: 16px;
+    }
+
+    .footer .list-unstyled li a {
+        font-size: 16px;
+    }
+
+    .footer .social-media a {
+        margin-right: 6px;
+    }
+
+    .footer .social-media a img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .copyright p {
+        font-size: 14px;
     }
 }

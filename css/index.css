@@ -42,8 +42,10 @@
 }
 
 .tentang-kami .content-tentang-kami .img-village {
+    display: block;
     width: 600px;
     height: 360px;
+    border-radius: 6px;
 }
 
 .tentang-kami .content-tentang-kami ol li {
@@ -188,9 +190,20 @@
     /* Akhir stats */
 
     /* Tentang Kami */
+    .tentang-kami .content-tentang-kami p {
+        line-height: 1.8;
+    }
+
+    .tentang-kami .content-tentang-kami ol li {
+        font-size: 14px;
+        line-height: 1.8;
+    }
+
     .tentang-kami .content-tentang-kami .img-village {
-        width: 240px;
-        height: 140px;
+        width: 280px;
+        height: 164px;
+        margin-right: auto;
+        margin-left: auto;
         margin-top: 20px;
     }
 
@@ -215,6 +228,13 @@
     .first-card-fasilitas {
         height: 520px !important;
     }
+    /* Akhir fasilitas */
+
+    /* Struktur pengurus */
+    .struktur-pengurus .pengurus .img-pengurus {
+        width: 220px;
+        height: 152px;
+    }
 }
 
 /* Small */
@@ -237,6 +257,12 @@
 
     .tentang-kami .box-2 {
         visibility: hidden;
+    }
+
+    /* Struktur Pengurus */
+    .struktur-pengurus .pengurus .img-pengurus {
+        width: 220px;
+        height: 152px;
     }
 
     /* Berita */

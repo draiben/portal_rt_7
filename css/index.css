@@ -26,44 +26,59 @@
 }
 
 /* About us */
-.about-us {
+.tentang-kami {
     min-height: 1040px;
     background-color: #051334;
     margin-top: -60px;
     color: #ffffff;
 }
 
-.about-us .heading-title {
+.tentang-kami .heading-title {
     margin-top: 150px;
 }
 
-.about-us .content-about-us h2 {
+.tentang-kami .content-tentang-kami h2 {
     margin-bottom: 14px;
 }
 
-.about-us .content-about-us .img-village {
+.tentang-kami .content-tentang-kami .img-village {
     width: 600px;
     height: 360px;
 }
 
+.tentang-kami .content-tentang-kami ol li {
+    font-size: 18px;
+    font-family: "Assistant", sans-serif;
+    font-weight: 300;
+    margin-bottom: 6px;
+}
+
 /* Hiasan box */
-.about-us .box-1 {
+.tentang-kami .box-1 {
     transform: rotate(180deg);
 }
 
-.about-us .box-2 {
-    transform: translateY(-830px);
+.tentang-kami .box-2 {
+    transform: translateY(-900px);
 }
 
 /* Fasilitas */
 .fasilitas .content .card-fasilitas {
     width: auto;
-    height: auto;
-    padding: 40px 20px;
+    height: 450px;
+    padding: 40px 0;
+    position: relative;
 }
 
 .fasilitas .content .card-fasilitas img {
     margin-bottom: 14px;
+}
+
+.fasilitas .content .card-fasilitas .btn-primary {
+    position: absolute;
+    bottom: 0;
+    margin-left: -72px;
+    margin-bottom: 30px;
 }
 
 /* pengurus */
@@ -172,21 +187,21 @@
     }
     /* Akhir stats */
 
-    /* About us */
-    .about-us .content-about-us .img-village {
+    /* Tentang Kami */
+    .tentang-kami .content-tentang-kami .img-village {
         width: 240px;
         height: 140px;
         margin-top: 20px;
     }
 
-    .about-us .box-1 {
+    .tentang-kami .box-1 {
         visibility: hidden;
     }
 
-    .about-us .box-2 {
+    .tentang-kami .box-2 {
         visibility: hidden;
     }
-    /* Akhir about us */
+    /* Akhir Tentang Kami */
 
     /* Berita */
     .berita .content .img-berita-utama {
@@ -195,32 +210,40 @@
         border-radius: 10px;
     }
     /* Akhir berita */
+
+    /* Fasilitas */
+    .first-card-fasilitas {
+        height: 520px !important;
+    }
 }
 
 /* Small */
 @media (min-width: 576px) {
-    /* hr (garis) */
-    .hr-lg {
-        display: block;
-    }
-
+    /* Stats */
     .stats .stats-detail {
         padding: 10px 0 10px 10px;
     }
 
-    .about-us .content-about-us .img-village {
+    /* Tentang kami */
+    .tentang-kami .content-tentang-kami .img-village {
         width: 400px;
         height: 220px;
         margin-top: 20px;
     }
 
-    .about-us .box-1 {
+    .tentang-kami .box-1 {
         visibility: hidden;
     }
 
-    .about-us .box-2 {
+    .tentang-kami .box-2 {
         visibility: hidden;
     }
+
+    /* Berita */
+    .hr-lg {
+        display: block;
+    }
+
     .berita .content .img-berita-utama {
         width: 540px;
         height: 360px;
@@ -230,67 +253,82 @@
 
 /* Medium */
 @media (min-width: 768px) {
+    /* Stats */
     .stats .stats-detail {
         padding: 16px 16px;
     }
-    .about-us .content-about-us .img-village {
+
+    /* Tentang kami */
+    .tentang-kami .content-tentang-kami .img-village {
         margin-top: 20px;
         width: 600px;
         height: 360px;
     }
 
-    .about-us .box-1 {
+    .tentang-kami .box-1 {
         visibility: visible;
         margin-top: 30px;
     }
 
-    .about-us .box-2 {
+    .tentang-kami .box-2 {
         visibility: visible;
-        transform: translateY(-1500px);
+        transform: translateY(-1630px);
     }
 }
 
 /* Large */
 @media (min-width: 992px) {
-    .struktur-pengurus .pengurus .img-pengurus {
-        width: 220px;
-        height: 140px;
-    }
-    .stats .stats-detail {
-        padding: 16px 16px;
-    }
-    .about-us .content-about-us .img-village {
+    /* Tentang kami */
+    .tentang-kami .content-tentang-kami .img-village {
         width: 460px;
         height: 270px;
     }
 
-    .about-us .box-2 {
-        transform: translateY(-950px);
+    .tentang-kami .box-2 {
+        transform: translateY(-1100px);
+    }
+
+    /* Struktur pengurus */
+    .struktur-pengurus .pengurus .img-pengurus {
+        width: 220px;
+        height: 140px;
+    }
+
+    /* Stats */
+    .stats .stats-detail {
+        padding: 16px 16px;
     }
 }
 
 /* Extra large */
 @media (min-width: 1200px) {
-    .hr-lg {
-        display: none;
-    }
+    /* Struktur pengurus */
     .struktur-pengurus .pengurus .img-pengurus {
         width: 260px;
         height: 180px;
     }
+
+    /* Stats */
     .stats .stats-detail {
         padding: 16px 16px 16px 46px;
     }
-    .about-us .content-about-us .img-village {
+
+    /* Tentang kami */
+    .tentang-kami .content-tentang-kami .img-village {
         width: 500px;
         height: 288px;
     }
-    .about-us .box-1 {
+    .tentang-kami .box-1 {
         margin-top: 30px;
     }
 
-    .about-us .box-2 {
-        transform: translateY(-850px);
+    .tentang-kami .box-2 {
+        transform: translateY(-1000px);
+    }
+
+    /* Berita */
+    .hr-lg {
+        display: none;
     }
 }
 
